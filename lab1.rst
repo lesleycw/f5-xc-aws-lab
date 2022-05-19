@@ -179,6 +179,7 @@ the "before" and "after" affects.
 
 +----------------------------------------------------------------------------------------------+
 | 1. Open another tab in your browser, enable developer tools (Firefox shown (use F12)) and    |
+|                                                                                              |
 |    click on the **Network** tab.                                                             |
 |                                                                                              |
 | 2. In browser's main URL window, navigate to **http://studentxxx.sales-public.f5demo.com**   |
@@ -186,6 +187,7 @@ the "before" and "after" affects.
 | 3. Using the 3 bars/menu icon (top right), navigate to **Access** link.                      |
 |                                                                                              |
 | 4. In the resulting login screen use the following values to login                           |
+|                                                                                              |
 |    - **Identity:** **user@f5.com**                                                           |
 |    - **Token:** **password**                                                                 |
 +----------------------------------------------------------------------------------------------+
