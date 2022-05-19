@@ -8,9 +8,8 @@ The purpose of this lab is to leverage F5 Distributed Cloud BotDefense to furthe
 secure an AWS hosted Web application from advanced AI-driven Bot attacks.  
 Lab attendees lab will utilize the F5 Distribted Cloud Platform and Global Network
 to engage both signature-based Bot protections and then extend those protections 
-with AI-enhanced Bot migitation strategies with BotDefense. Attendees will configure
-and test BotDefense along with exploring the F5 Distributed Cloud Console and its 
-features.
+with AI-enhanced Bot migitation strategies using BotDefense. Attendees will configure
+BotDefense along with exploring the F5 Distributed Cloud Console and its features.
 
 Objective:
 ----------
@@ -37,6 +36,6 @@ Lab Requirements:
    :glob:
    
    intro*
-   lab1*
+   lab*
    close*
    
