@@ -52,18 +52,23 @@ for managing network, security, and compute services. F5 Distributed Cloud Conso
 | 2. When you first login you will need to select your "persona"                               |
 |                                                                                              |
 | 3. Enter your persona as "SecOps" and level as "Intermediate". You can change these settings |
+|                                                                                              |
 |    after logging in as well.                                                                 |
 |                                                                                              |
 | 4. Several "Guidance ToolTips" will appear, you can safely close these out.                  |
 |                                                                                              |
 | 5. You can identify your namespace (an environment for isolating configured applications) by |
+|                                                                                              |
 |    clicking on **Account Settings** and expanding the **Account** icon in the top right of   |
+|                                                                                              |
 |    the screen and clicking on **Account Settings**                                           |
 |                                                                                              |
 | 5. Next click on "My Namespaces" and take note of the studentxxx namespace that you have been|
+|                                                                                              |
 |    assigned. Each student will have a unique number.                                         |
 +----------------------------------------------------------------------------------------------+
 | |image00a|                                                                                   |
+|                                                                                              |
 | |image00b|                                                                                   |
 +----------------------------------------------------------------------------------------------+
 
