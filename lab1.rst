@@ -283,6 +283,20 @@ the "before" and "after" affects.
 | |image031|                                                                                   |
 +----------------------------------------------------------------------------------------------+
 
++----------------------------------------------------------------------------------------------+
+| 19. Repeat Task3 steps 1-6.  Note you many need to close your browser or logout of the       |
+|                                                                                              |
+|     application.                                                                             |
+|                                                                                              |
+| 20. Notice now that there is additional telemetry be passed in the POST request.  This       | 
+|                                                                                              |
+|     Telemetry will be used to determine and classify if the connecting client is an          |
+|                                                                                              |
+|     automated Bot.                                                                           |
++----------------------------------------------------------------------------------------------+
+| |image031|                                                                                   |
++----------------------------------------------------------------------------------------------+
+
 .. |image00a| image:: media/account-settings.png
    :width: 800px
 .. |image00b| image:: media/mynamespaces.png
@@ -348,4 +362,6 @@ the "before" and "after" affects.
 .. |image030| image:: media/lb-026.png
    :width: 800px
 .. |image031| image:: media/lb-027.png
+   :width: 800px
+.. |image032| image:: media/web-0005.png
    :width: 800px
