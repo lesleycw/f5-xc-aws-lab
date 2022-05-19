@@ -115,7 +115,7 @@ Strategies.
 |                                                                                              |
 |    **Configuration: Origin Servers**                                                         |
 |                                                                                              |
-| 9. ** Pulic DNS Name of Origin Server** should be selected.  For **DNS Name** enter the      |
+| 9. **Pulic DNS Name of Origin Server** should be selected.  For **DNS Name** enter the       |
 |                                                                                              |
 |    following hostanme **demo-app.cloud.myf5demo.com** and click **Add Item**                 |
 +----------------------------------------------------------------------------------------------+
