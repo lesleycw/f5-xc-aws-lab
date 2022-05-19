@@ -202,6 +202,7 @@ the "before" and "after" affects.
 | 5. In the Developer window, find the POST to auth.php (use can also filter for auth.php)     |
 |                                                                                              |
 | 6. Select the **Request** tab in the paylad window and note that you only see limited form   |
+|                                                                                              |
 |    POST data (identity, token, & submit)                                                     |
 +----------------------------------------------------------------------------------------------+
 | |image019|                                                                                   |
