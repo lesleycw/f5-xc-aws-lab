@@ -155,14 +155,10 @@ Strategies.
 | 17. Under **Enforcement Mode**, change the mode to **Blocking**.                             |
 |                                                                                              |
 | 18. Leaving all other values as default, scroll to the bottom and click **Continue**.        |
-|                                                                                              |
-| 19. Leaving all other values as default, scroll to the bottom and click **Save and Exit**.   |
 +----------------------------------------------------------------------------------------------+
 | |image012|                                                                                   |
 |                                                                                              |
 | |image013|                                                                                   |
-|                                                                                              |
-| |image014|                                                                                   |
 +----------------------------------------------------------------------------------------------+
 
 +----------------------------------------------------------------------------------------------+
@@ -170,9 +166,9 @@ Strategies.
 |                                                                                              |
 | 20. In the final window note application hostname under the **Domains** column (Step 4).     |
 +----------------------------------------------------------------------------------------------+
-| |image015|                                                                                   |
+| |image014|                                                                                   |
 |                                                                                              |
-| |image016|                                                                                   |
+| |image015|                                                                                   |
 +----------------------------------------------------------------------------------------------+
 
 
