@@ -32,16 +32,38 @@ TASK 1: F5 Distributed Cloud Console Login.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The following will guide you through the initial Lab environment access within the 
-F5 Distributed Cloud Console.
- 
+F5 Distributed Cloud Console.  You should have received an email with an invitation to 
+access F5 Distributed Cloud Console.
+
+The name of the F5 Distributed Cloud tenant that we will be using is **f5-sales-public**
+
+You will need to create a password that will be associated with your email address. If you
+have NOT received an email from our system you may need to provide an alternate email address
+that we can use for the purposes of this lab.
+
+F5 Dsitributed Cloud Console is a SaaS control-plane for services that provides a UI and API
+for managing network, security, and compute services. F5 Distributed Cloud Console can manage
+"sites" in existing on-prem data centers and sites in AWS, Azure, and GCP cloud environments.
+
 +----------------------------------------------------------------------------------------------+
-| 1. Login to your provided lab Virtual Edition: **bigp1.f5lab.local**                         |
+| 1. Please log into your assigned Volterra tenant.                                            |
+|    https://f5-sales-public.console.ves.volterra.io/                                          |
 |                                                                                              |
-| 2. Navigate to:  **Access -> Guided Configuration**                                          |
+| 2. When you first login you will need to select your "persona"                               |
 |                                                                                              |
-| 3. Click the **Zero Trust** graphic as shown.                                                |
+| 3. Enter your persona as "SecOps" and level as "Intermediate". You can change these settings |
+|    after logging in as well.                                                                 |
+|                                                                                              |
+| 4. Several "Guidance ToolTips" will appear, you can safely close these out.                  |
+|                                                                                              |
+| 5. You can identify your namespace (an environment for isolating configured applications) by |
+|    clicking on **Account Settings** and expanding the **Account** icon in the top right of   |
+|    the screen and clicking on **Account Settings**                                           |
+|                                                                                              |
+| 5. Next click on "My Namespaces" and take note of the studentxxx namespace that you have been|
+|    assigned. Each student will have a unique number.                                         |
 +----------------------------------------------------------------------------------------------+
-| |image001|                                                                                   |
+| |image002|                                                                                   |
 +----------------------------------------------------------------------------------------------+
 
 TASK 2: Build an Load Balancer with associated secuirty confingurations.
@@ -171,8 +193,9 @@ the "before" and "after" affects.
 | |image005|                                                                                   |
 +----------------------------------------------------------------------------------------------+
 
-
-.. |image000| image:: media/lb-001.png
+.. |image00a| image:: media/account-settings.png
+   :width: 800px
+.. |image00b| image:: media/mynamespaces.png
    :width: 800px
 .. |image001| image:: media/lb-001.png
    :width: 800px
