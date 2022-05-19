@@ -27,7 +27,6 @@ Lab Requirements:
 
 -  Estimated completion time: 15 minutes
 
-|repoinfo|
 
 .. toctree::
    :maxdepth: 2
