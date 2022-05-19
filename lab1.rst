@@ -150,9 +150,9 @@ Strategies.
 +----------------------------------------------------------------------------------------------+
 
 +----------------------------------------------------------------------------------------------+
-| 16. In the resulting window Metadata section enter **studentxxx-appfw** for the **Name**.    |
+| 16. In the resulting window **Metadata** section enter **studentxxx-appfw** for the **Name**.|
 |                                                                                              |
-| 17. Under **Enforcement Mode**, chnage the Enforcement Mode to **Blocking**.                 |
+| 17. Under **Enforcement Mode**, change the mode to **Blocking**.                             |
 |                                                                                              |
 | 18. Leaving all other values as default, scroll to the bottom and click **Continue**.        |
 |                                                                                              |
