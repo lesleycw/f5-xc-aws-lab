@@ -35,7 +35,6 @@ Lab Requirements:
    :caption: Contents:
    :glob:
    
-   intro*
    lab*
    close*
    
