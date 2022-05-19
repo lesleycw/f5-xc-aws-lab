@@ -1,4 +1,4 @@
-Lab : Protecting AWS Hosted Web Application with F5 Distributed Cloud BotDefense
+Lab: Protecting AWS Hosted Web Application with F5 Distributed Cloud BotDefense
 ================================================================================
 
 The following three lab tasks will guide you the configuration of BotDefense via 
@@ -18,7 +18,7 @@ You will need to create a password that will be associated with your email addre
 have NOT received an email from our system you may need to provide an alternate email address
 that we can use for the purposes of this lab.
 
-F5 Dsitributed Cloud Console is a SaaS control-plane for services that provides a UI and API
+F5 Distributed Cloud Console is a SaaS control-plane for services that provides a UI and API
 for managing network, security, and compute services. F5 Distributed Cloud Console can manage
 "sites" in existing on-prem data centers and sites in AWS, Azure, and GCP cloud environments.
 
@@ -26,13 +26,13 @@ for managing network, security, and compute services. F5 Distributed Cloud Conso
 | 1. Please log into your assigned Volterra tenant.                                            |
 |    https://f5-sales-public.console.ves.volterra.io/                                          |
 |                                                                                              |
-| 2. When you first login you will need to select your "persona"                               |
+| 2. When you first login you will need to select your **persona**                             |
 |                                                                                              |
-| 3. Enter your persona as "SecOps" and level as "Intermediate". You can change these settings |
+| 3. Enter your persona as **SecOps** and level as **Intermediate**. You can change these      |
 |                                                                                              |
-|    after logging in as well.                                                                 |
+|    settings after logging in as well.                                                        |
 |                                                                                              |
-| 4. Several "Guidance ToolTips" will appear, you can safely close these out.                  |
+| 4. Several **Guidance ToolTips** will appear, you can safely close these out.                |
 |                                                                                              |
 | 5. You can identify your namespace (an environment for isolating configured applications) by |
 |                                                                                              |
@@ -40,27 +40,27 @@ for managing network, security, and compute services. F5 Distributed Cloud Conso
 |                                                                                              |
 |    the screen and clicking on **Account Settings**                                           |
 |                                                                                              |
-| 5. Next click on "My Namespaces" and take note of the studentxxx namespace that you have been|
+| 5. Next click on **My Namespaces** and take note of the studentxxx namespace that you have   |
 |                                                                                              |
-|    assigned. Each student will have a unique number.                                         |
+|    been assigned. Each student will have a unique number.                                    |
 +----------------------------------------------------------------------------------------------+
 | |image00a|                                                                                   |
 |                                                                                              |
 | |image00b|                                                                                   |
 +----------------------------------------------------------------------------------------------+
 
-TASK 2: Build an Load Balancer with associated secuirty confingurations.
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+TASK 2: Build a Load Balancer with associated security configurations
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The following steps will allow you to deploy and advertise a globally available and
 secured application.  These steps will define an application, register its DNS, and
-target an origin (AWS hosted application) in prepartion of attaching Bot Protection
+target an origin (AWS hosted application) in preparation of attaching Bot Protection
 Strategies.
 
 +----------------------------------------------------------------------------------------------+
 | 1. Ensure you are in your studentxxx namespace                                               |
 |                                                                                              |
-| 2. In the left Navigation expand **Manage** and click "Load Balancers > HTTP Load Balancers" |
+| 2. In the left Navigation expand **Manage** and click **Load Balancers>HTTP Load Balancers** |
 |                                                                                              |
 | 3. Click the **Add HTTP Load Balancer** in the graphic as shown.                             |
 +----------------------------------------------------------------------------------------------+
@@ -81,7 +81,7 @@ Strategies.
 +----------------------------------------------------------------------------------------------+
 
 +----------------------------------------------------------------------------------------------+
-| 5. In the current window left navigation,  click **Default Origin Servers** and then         |
+| 5. In the current window left navigation, click **Default Origin Servers** and then          |
 |    **Add Item**.                                                                             |
 |                                                                                              |
 | 6. In the resulting window, use the drop down as shown and click **Create new Origin Pool**. |
@@ -98,7 +98,7 @@ Strategies.
 |                                                                                              |
 | 9. **Pulic DNS Name of Origin Server** should be selected.  For **DNS Name** enter the       |
 |                                                                                              |
-|    following hostanme **demo-app.cloud.myf5demo.com** and click **Add Item**                 |
+|    following hostname **demo-app.cloud.myf5demo.com** and click **Add Item**                 |
 +----------------------------------------------------------------------------------------------+
 | |image005|                                                                                   |
 |                                                                                              |
@@ -108,7 +108,7 @@ Strategies.
 +----------------------------------------------------------------------------------------------+
 | 10. After returning to the prior window, make sure **Port:** in configured for **80**.       |
 |                                                                                              |
-| 11. Leave all other values as default while scrolling to the bottom an click, **Continue**.  |
+| 11. Leave all other values as default while scrolling to the bottom and click, **Continue**. |
 |                                                                                              |
 | 12. After returning to the next window and confirming the content, click **Add Item**.       |
 +----------------------------------------------------------------------------------------------+
@@ -120,7 +120,7 @@ Strategies.
 +----------------------------------------------------------------------------------------------+
 
 +----------------------------------------------------------------------------------------------+
-| 13. In the left hand navigation of the main window, click **Security Configuration**.        |
+| 13. In the left-hand navigation of the main window, click **Security Configuration**.        |
 |                                                                                              |
 | 14. Use the drop down for **Select Web Application Firewall (WAF Config)** and select        |
 |     **App Firewall**.                                                                        |
@@ -157,7 +157,7 @@ Strategies.
 
 TASK 3: Testing Application then Adding BotDefense  
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Now that the application has been confgured and is accessible, we can attach BotDefense and see
+Now that the application has been configured and is accessible, we can attach BotDefense and see
 the "before" and "after" affects.
 
 +----------------------------------------------------------------------------------------------+
@@ -184,19 +184,19 @@ the "before" and "after" affects.
 +----------------------------------------------------------------------------------------------+
 | 5. In the Developer window, find the POST to auth.php (use can also filter for auth.php)     |
 |                                                                                              |
-| 6. Select the **Request** tab in the paylad window and note that you only see limited form   |
+| 6. Select the **Request** tab in the payluad window and note that you only see limited form  |
 |                                                                                              |
-|    POST data (identity, token, & submit)                                                     |
+|    POST data (identity, token, & submit).                                                    |
 +----------------------------------------------------------------------------------------------+
 | |image019|                                                                                   |
 +----------------------------------------------------------------------------------------------+
 
 +----------------------------------------------------------------------------------------------+
-| 7. Return to the Load Balancer in the F5 Dsitrbuted Cloud Console (hint: Task 2, 1-2)        |
+| 7. Return to the Load Balancer in the F5 Distributed Cloud Console (hint: Task 2, 1-2)       |
 |                                                                                              |
 | 8. Use the **Action Dots** and click **Manage Configuration**                                |
 |                                                                                              |
-| 9. Click **Edit Configuration** in the top right hand corner.                                |
+| 9. Click **Edit Configuration** in the top right-hand corner.                                |
 +----------------------------------------------------------------------------------------------+
 | |image020|                                                                                   |
 |                                                                                              |
@@ -204,7 +204,7 @@ the "before" and "after" affects.
 +----------------------------------------------------------------------------------------------+
 
 +----------------------------------------------------------------------------------------------+
-| 10. Click **Security Configuration** in the left hand navigation.                            |
+| 10. Click **Security Configuration** in the left-hand navigation.                            |
 |                                                                                              |
 | 11. For the **Bot Defense* *Configuration**, select **Specify Bot Defense Configuration**.   |
 |                                                                                              |
@@ -267,9 +267,7 @@ the "before" and "after" affects.
 |                                                                                              |
 | 20. Notice now that there is additional telemetry be passed in the POST request.  This       | 
 |                                                                                              |
-|     Telemetry will be used to determine and classify if the connecting client is an          |
-|                                                                                              |
-|     automated Bot.                                                                           |
+|     Telemetry will be used to determine if the connecting client is an Automated Bot.        |
 +----------------------------------------------------------------------------------------------+
 | |image032|                                                                                   |
 +----------------------------------------------------------------------------------------------+
