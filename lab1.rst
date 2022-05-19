@@ -249,7 +249,7 @@ the "before" and "after" affects.
 |     - **Prefix** **/auth.php**                                                               |
 |     - **Bot Traffic Mitigation\Select Bot Mitigation Action** **Block**                      |
 |                                                                                              |
-| 15. Scroll to the bottom and click **Add Item**  5                                           |
+| 15. Scroll to the bottom and click **Add Item**                                              |
 +----------------------------------------------------------------------------------------------+
 | |image026|                                                                                   |
 |                                                                                              |
