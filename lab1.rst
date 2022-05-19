@@ -89,14 +89,13 @@ Strategies.
 | 4. Using the left navigation and in the sections as presented, enter the following data.     |
 |    Values where **xxx** is required, use the student number associated with your namespace.  |
 |                                                                                              |
-|    **Metdata:Name ID:  **studentxxx-lb**                                                     |
+|    **Metdata:Name ID:**  **studentxxx-lb**                                                   |
 |                                                                                              |
 |    **Basic Configuration:List of Domains:** **studentxxx.sales-public.f5demos.com**          |
 |    **Basic Configuration:Select Type of Load Balancer:** **HTTP**                            |
 |    **Basic Configuration:Automatically Manage DNS Records** Check the Box                    |
 +----------------------------------------------------------------------------------------------+
 | |image002|                                                                                   |
-| |image003|                                                                                   |
 +----------------------------------------------------------------------------------------------+
 
 +----------------------------------------------------------------------------------------------+
@@ -106,7 +105,7 @@ Strategies.
 |                                                                                              |
 | 6. In the resulting window, use the drop down as shown and click **Create new Origin Pool**. |
 +----------------------------------------------------------------------------------------------+
-| |image004|                                                                                   |
+| |image003|                                                                                   |
 |                                                                                              |
 | |image005|                                                                                   |
 +----------------------------------------------------------------------------------------------+
