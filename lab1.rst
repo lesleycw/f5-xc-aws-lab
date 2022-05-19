@@ -185,11 +185,92 @@ the "before" and "after" affects.
 |                                                                                              |
 | 3. Using the 3 bars/menu icon (top right), navigate to **Access** link.                      |
 |                                                                                              |
-| 3. In the resulting login screen use the following values to login                           |
-|    **Identity:** **user@f5.com**                                                             |
-| 3. Using the 3 bars/menu icon (top right), navigate to **Access** link.                      |
+| 4. In the resulting login screen use the following values to login                           |
+|    - **Identity:** **user@f5.com**                                                           |
+|    - **Token:** **password**                                                                 |
 +----------------------------------------------------------------------------------------------+
-| |image014|                                                                                   |
+| |image016|                                                                                   |
+|                                                                                              |
+| |image017|                                                                                   |
+|                                                                                              |
+| |image018|                                                                                   |
++----------------------------------------------------------------------------------------------+
+
++----------------------------------------------------------------------------------------------+
+| 5. In the Developer window, find the POST to auth.php (use can also filter for auth.php)     |
+|                                                                                              |
+| 6. Select the **Request** tab in the paylad window and note that you only see limited form   |
+|    POST data (identity, token, & submit)                                                     |
++----------------------------------------------------------------------------------------------+
+| |image019|                                                                                   |
++----------------------------------------------------------------------------------------------+
+
++----------------------------------------------------------------------------------------------+
+| 7. Return to the Load Balancer in the F5 Dsitrbuted Cloud Console (hint: Task 2, 1-2)        |
+|                                                                                              |
+| 8. Use the **Action Dots** and click **Manage Configuration**                                |
+|                                                                                              |
+| 9. Click **Edit Configuration** in the top right hand corner.                                |
++----------------------------------------------------------------------------------------------+
+| |image020|                                                                                   |
+|                                                                                              |
+| |image021|                                                                                   |
++----------------------------------------------------------------------------------------------+
+
++----------------------------------------------------------------------------------------------+
+| 10. Click **Security Configuration** in the left hand navigation.                            |
+|                                                                                              |
+| 11. For the **Bot Defense* *Configuration**, select **Specify Bot Defense Configuration**.   |
+|                                                                                              |
+| 12. In the added menu option, click **Configure**.                                           |
++----------------------------------------------------------------------------------------------+
+| |image022|                                                                                   |
+|                                                                                              |
+| |image023|                                                                                   |
++----------------------------------------------------------------------------------------------+
+
++----------------------------------------------------------------------------------------------+
+| 11. Note the additional positioning options in the **JavaScript Insertion** section.         |
+|                                                                                              |
+| 12. Click **Configure** in the **Protected Endpoints Section**                               |
+|                                                                                              |
+| 13. In the new **App Endpoint Type** click **Add Item**                                      |
++----------------------------------------------------------------------------------------------+
+| |image024|                                                                                   |
+|                                                                                              |
+| |image025|                                                                                   |
++----------------------------------------------------------------------------------------------+
+
++----------------------------------------------------------------------------------------------+
+| 14. In the **Application Endpoint** section use the following values:                        |
+|     - **Metadata\Name:** **auth**                                                            |
+|     - **HTTP Methods** **POST**                                                              |
+|     - **Path\Path Match** **Prefix**                                                         |
+|     - **Prefix** **/auth.php**                                                               |
+|     - **Bot Traffic Mitigation\Select Bot Mitigation Action** **Block**                      |
+|                                                                                              |
+| 15. Scroll to the bottom and click **Add Item**                                              |
++----------------------------------------------------------------------------------------------+
+| |image026|                                                                                   |
+|                                                                                              |
+| |image027|                                                                                   |
+|                                                                                              |
+| |image028|                                                                                   |
++----------------------------------------------------------------------------------------------+
+
++----------------------------------------------------------------------------------------------+
+| 16. Then click **Apply** on the **App Endpoint Type** screen                                 |
+|                                                                                              |
+| 17. Then click **Apply** on the **Protected App Endpoints** screen                           |
+|                                                                                              |
+| 18. Then scroll to the bottom on the **HTTP Load Balancer** screen, and click **Save and**   |
+|     Exit**.                                                                                  |
++----------------------------------------------------------------------------------------------+
+| |image029|                                                                                   |
+|                                                                                              |
+| |image030|                                                                                   |
+|                                                                                              |
+| |image031|                                                                                   |
 +----------------------------------------------------------------------------------------------+
 
 .. |image00a| image:: media/account-settings.png
@@ -226,64 +307,35 @@ the "before" and "after" affects.
    :width: 800px
 .. |image015| image:: media/lb-015.png
    :width: 800px
-.. |image016| image:: media/lb-016.png
+.. |image016| image:: media/web-001.png
    :width: 800px
-.. |image017| image:: media/lb-017.png
+.. |image017| image:: media/web-002.png
    :width: 800px
-.. |image018| image:: media/lab1-018.png
+.. |image018| image:: media/web-003.png
    :width: 800px
-.. |image019| image:: media/lab1-019.png
+.. |image019| image:: media/web-004.png
    :width: 800px
-.. |image020| image:: media/lab1-020.png
+.. |image020| image:: media/lb-016.png
    :width: 800px
-.. |image021| image:: media/lab1-021.png
+.. |image021| image:: media/lb-017.png
    :width: 800px
-.. |image022| image:: media/lab1-022.png
+.. |image022| image:: media/lb-018.png
    :width: 800px
-.. |image023| image:: media/lab1-023.png
+.. |image023| image:: media/lb-019.png
    :width: 800px
-.. |image024| image:: media/lab1-024.png
+.. |image024| image:: media/lb-020.png
    :width: 800px
-.. |image025| image:: media/lab1-025.png
+.. |image025| image:: media/lb-021.png
    :width: 800px
-.. |image026| image:: media/lab1-026.png
+.. |image026| image:: media/lb-022.png
    :width: 800px
-.. |image027| image:: media/lab1-027.png
+.. |image027| image:: media/lb-023.png
    :width: 800px
-.. |image028| image:: media/lab1-028.png
+.. |image028| image:: media/lb-024.png
    :width: 800px
-.. |image029| image:: media/lab1-029.png
+.. |image029| image:: media/lb-025.png
    :width: 800px
-.. |image030| image:: media/lab1-030.png
+.. |image030| image:: media/lb-026.png
    :width: 800px
-.. |image031| image:: media/lab1-031.png
+.. |image031| image:: media/lb-027.png
    :width: 800px
-.. |image032| image:: media/lab1-032.png
-   :width: 800px
-.. |image033| image:: media/lab1-033.png
-   :width: 800px
-.. |image034| image:: media/lab1-034.png
-   :width: 800px
-.. |image035| image:: media/lab1-035.png
-   :width: 800px
-.. |image036| image:: media/lab1-036.png
-   :width: 800px
-.. |image037| image:: media/lab1-037.png
-   :width: 800px
-.. |image038| image:: media/lab1-038.png
-   :width: 800px
-.. |image039| image:: media/lab1-039.png
-   :width: 800px
-.. |image040| image:: media/lab1-040.png
-   :width: 800px
-.. |image041| image:: media/lab1-041.png
-   :width: 800px
-.. |image042| image:: media/lab1-042.png
-   :width: 800px
-.. |image043| image:: media/lab1-043.png
-   :width: 800px
-.. |image044| image:: media/lab1-044.png
-   :width: 800px
-.. |image045| image:: media/lab1-045.png
-   :width: 800px
-      
