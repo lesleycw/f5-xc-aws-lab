@@ -243,6 +243,7 @@ the "before" and "after" affects.
 
 +----------------------------------------------------------------------------------------------+
 | 14. In the **Application Endpoint** section use the following values:                        |
+|                                                                                              |
 |     - **Metadata\Name:** **auth**                                                            |
 |     - **HTTP Methods** **POST**                                                              |
 |     - **Path\Path Match** **Prefix**                                                         |
