@@ -369,7 +369,7 @@ the "before" and "after" affects.
    :width: 800px
 .. |image031| image:: media/lb-027.png
    :width: 800px
-.. |image032| image:: media/web-0005.png
+.. |image032| image:: media/web-005.png
    :width: 800px
 .. |image033| image:: media/end.png
    :width: 800px
