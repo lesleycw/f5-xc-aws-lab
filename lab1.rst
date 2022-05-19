@@ -99,7 +99,6 @@ Strategies.
 
 +----------------------------------------------------------------------------------------------+
 | 5. In the current window left navigation,  click **Default Origin Servers** and then         |
-|                                                                                              |
 |    **Add Item**.                                                                             |
 |                                                                                              |
 | 6. In the resulting window, use the drop down as shown and click **Create new Origin Pool**. |
@@ -128,25 +127,26 @@ Strategies.
 |                                                                                              |
 | 11. Leave all other values as default while scrolling to the bottom an click, **Continue**.  |
 |                                                                                              |
-| 12. After returning to the next windo and confirming the content, click **Add Item**.        |
+| 12. After returning to the next window and confirming the content, click **Add Item**.       |
 +----------------------------------------------------------------------------------------------+
 | |image007|                                                                                   |
 |                                                                                              |
 | |image008|                                                                                   |
+|                                                                                              |
+| |image009|                                                                                   |
 +----------------------------------------------------------------------------------------------+
 
 +----------------------------------------------------------------------------------------------+
 | 13. In the left hand navigation of the main window, click **Security Configuration**.        |
 |                                                                                              |
 | 14. Use the drop down for **Select Web Application Firewall (WAF Config)** and select        |
-|                                                                                              |
 |     **App Firewall**.                                                                        |
 |                                                                                              |
 | 15. In the resulting **App Firewall** drop down select **Create new App Firewall**.          |
 +----------------------------------------------------------------------------------------------+
-| |image009|                                                                                   |
-|                                                                                              |
 | |image010|                                                                                   |
+|                                                                                              |
+| |image011|                                                                                   |
 +----------------------------------------------------------------------------------------------+
 
 +----------------------------------------------------------------------------------------------+
@@ -158,9 +158,9 @@ Strategies.
 |                                                                                              |
 | 19. Leaving all other values as default, scroll to the bottom and click **Save and Exit**.   |
 +----------------------------------------------------------------------------------------------+
-| |image011|                                                                                   |
-|                                                                                              |
 | |image012|                                                                                   |
+|                                                                                              |
+| |image013|                                                                                   |
 +----------------------------------------------------------------------------------------------+
 
 +----------------------------------------------------------------------------------------------+
@@ -168,7 +168,7 @@ Strategies.
 |                                                                                              |
 | 20. In the final window note application hostname under the **Domains** column (Step 4).     |
 +----------------------------------------------------------------------------------------------+
-| |image013|                                                                                   |
+| |image014|                                                                                   |
 +----------------------------------------------------------------------------------------------+
 
 
