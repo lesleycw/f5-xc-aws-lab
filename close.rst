@@ -1,7 +1,7 @@
 Conclusion
 ==========
 
-Thank you for your participation in the F5 Distributed Cloud AWS Immersion Lab.
+Thank you for your participation in the AWS Immersion Day -F5 Distributed Cloud Lab.
 This Lab Guide has highlighted how subscribers can leverage F5 Distributed 
 Cloud BotDefense security to protect AWS hosted applications and resources
 
@@ -13,8 +13,17 @@ Appendix
   * **Services**: https://docs.cloud.f5.com/docs/services
   * **Concepts**: https://docs.cloud.f5.com/docs/ves-concepts
 
+**F5 Distributed Cloud Web Application Firewall (WAF)**:
+  * **Intro**: https://www.f5.com/cloud/products/distributed-cloud-waf
+  * **How to**: https://docs.cloud.f5.com/docs/how-to/app-security/web-app-firewall
+
 **F5 Distributed Cloud BotDefense**:
+  * **Intro**: https://www.f5.com/cloud/products/bot-defense
   * **How to**: https://docs.cloud.f5.com/docs/how-to/advanced-security/bot-defense
+
+**F5 Distributed Service Policies**:
+  * **How to**: https://docs.cloud.f5.com/docs/how-to/app-security/service-policy
+  * **How to**: https://docs.cloud.f5.com/docs/how-to/advanced-security/configure-ip-reputation
 
 **Automation/Orchestration**:
   * **API:** https://docs.cloud.f5.com/docs/api
