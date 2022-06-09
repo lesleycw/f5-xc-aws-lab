@@ -546,7 +546,7 @@ Sample Blocking Response Page to be copied::
 | |labend|                                                                                     |
 +----------------------------------------------------------------------------------------------+
 
-.. |aws001| image:: _static/lab1-001.png
+.. |aws001| image:: _static/aws-001.png
    :width: 800px
 .. |lab001| image:: _static/lab1-001.png
    :width: 800px
