@@ -12,8 +12,8 @@ an email, please contact a member of the lab team.
 The F5 Distributed Cloud Console, where a majority of all lab tasks will be conducted, is a SaaS
 based control-plane for services which provides a GUI and API for managing network, security, and
 compute services. The F5 Distributed Cloud Platform can be leveraged to further protect applications
-hosted within Amazon Web Services and its myriad of hosting options available including Elastic 
-Kubernetes Services (EKS) which will be used today.
+hosted within Amazon Web Services and its myriad of hosting options available including Elastic Compute
+Cloud (Amazon EC2) and Elastic Kubernetes Services (EKS).
 
 Task 1: Lab Environment
 ~~~~~~~~~~~~~~~~~~~~~~~
@@ -23,15 +23,15 @@ Task 1: Lab Environment
 |                                                                                              |
 | will be configured as a SaaS Edge delivery and security service tier to an AWS publicly      |
 |                                                                                              |
-| hosted web application which is containerized within EKS. The key elements lab attendees     |
+| hosted web application within EC2 and EKS. The key elements lab attendees                    |
 |                                                                                              |
 | will interact with are as follows:                                                           |
 |                                                                                              |
-| * **AWS hosted application within EKS**                                                      |
+| * **AWS hosted application within EC2 and EKS**                                              |
 | * **F5 Distributed Cloud Console**                                                           |
 | * **F5 Distributed Cloud Global Network / Application Delivery Network (ADN)**               |
 |                                                                                              |
-| For the purposes of this lab, the AWS EKS application has been pre-deployed.                 |
+| For the purposes of this lab, the AWS EC2 / EKS application has been pre-deployed.           |
 +----------------------------------------------------------------------------------------------+
 | |intro001|                                                                                   |
 +----------------------------------------------------------------------------------------------+
