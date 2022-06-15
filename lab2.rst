@@ -216,7 +216,9 @@ implementation.
 +----------------------------------------------------------------------------------------------+
 | **End of Lab 2:**  This concludes Lab 2, feel free to review and test the configuration.     |
 |                                                                                              |
-| The presentation will resume shortly and then be opened for Q&A.                             |
+| The presentation will resume shortly and then be opened for Q&A. There is also an optional   |
+|                                                                                              |
+| Lab3.                                                                                        |
 +----------------------------------------------------------------------------------------------+
 | |labend|                                                                                     |
 +----------------------------------------------------------------------------------------------+
