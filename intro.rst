@@ -1,5 +1,5 @@
-Introduction: Accessing F5 Distributed Cloud Console  (Lab Initilization)
-=========================================================================
+Introduction: Accessing F5 Distributed Cloud Console  (Lab Initialization)
+==========================================================================
 
 Welcome to this AWS Immersion Day lab with F5. Thank you for your attendance.
 
